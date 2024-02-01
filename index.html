@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-
     <!-- Unicons -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
@@ -14,8 +13,57 @@
     <title>Portifólio Website</title> 
 </head>
 <body>
- <!-- Header -->
 
+ <!-- Header -->
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="index.html" class="nav__logo">JS D<span>E</span>V</a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li><a href="#home" class="nav__link active-link">Home</a></li>
+
+                <li><a href="#sobre" class="nav__link">Sobre</a></li>
+
+                <li><a href="#serviços" class="nav__link">Serviços</a></li>
+
+                <li><a href="#portifolio" class="nav__link">Portifólio</a></li>
+
+                <li><a href="#contato" class="nav__link">Contato</a></li>
+            </ul>
+
+            <div class="nav__close" id="nav-close">
+                <i class="ui uil-times"></i>
+            </div>
+        </div>
+
+        <div class="nav__socials">
+            <a href="https://github.com/JhonB-DEVLP" target="_blank"
+            class="nav__social-link">
+                <i class="uil uil-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/jhonesbonifaciodasilva/" target="_blank"
+            class="nav__social-link">
+                <i class="uil uil-linkedin"></i>
+        </a>
+
+        <a href="https://www.instagram.com/iae.jhonzn/" target="_blank"
+            class="nav__social-link">
+                <i class="uil uil-instagram-alt"></i>
+        </a>
+        </div>
+
+        <div class="nav__btns">
+            <a href="#contato" class="nav__link-btn btn"> Fale comigo 👇🏼</a>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="uil uil-bars"></i>
+            </div>
+        </div>
+    </nav>
+</header>
+ 
  <!-- Main -->
 <main class="main">
     <!-- Home -->
@@ -341,8 +389,35 @@
 </main>
 
 <!-- Footer -->
+<footer class= "footer">
+    <div class="footer__container container grid">
+        <a href="index.html" class="footer__logo">JS D<span>E</span>V</a>
+
+        <div class="footer__socials">
+            <a href="https://github.com/JhonB-DEVLP" target="_blank"
+            class="footer__social-link">
+                <i class="uil uil-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/jhonesbonifaciodasilva/" target="_blank"
+            class="footer__social-link">
+                <i class="uil uil-linkedin"></i>
+        </a>
+
+        <a href="https://www.instagram.com/iae.jhonzn/" target="_blank"
+            class="footer__social-link">
+                <i class="uil uil-instagram-alt"></i>
+        </a>
+        </div>
+
+        <p class="footer__copyrigth"> &copy; 2024. Todos os direitos reservados.</p>
+    </div>
+</footer>
 
 <!-- Scroll Up -->
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-angle-up scrollup__icon"></i>
+</a>
 
 <!-- biblioteca Email JS -->
 <script 

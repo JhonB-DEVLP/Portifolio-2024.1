@@ -10,9 +10,25 @@
 
 /* Scroll sections active Link */
 
-/* Change background header */
+/* Alterar fundo do cabeçalho */
+function scrollHeader() {
+    const header = document.getElementById('header');
+    // when the scroll is greater than 50 viewport height, add the scroll-header class to header tag
+       if(this.scrollY >= 80) header.classList.add('scroll-header');
+       else header.classList.remove('scroll-header');
+}
+
+window.addEventListener('scroll', scrollHeader);
 
 /* Show scroll up */
+function scrollUp() {
+    const scrollUp = document.getElementById('scroll-up');
+    // when the scroll is greater than 350 viewport height, add the show-scroll class to scroll-top class
+       if(this.scrollY >= 350) scrollUp.classList.add('show-scroll');
+       else scrollUp.classList.remove('show-scroll');
+}
+
+window.addEventListener('scroll', scrollUp);
 
 /* About tabs */
 const tabs = document.querySelectorAll('[data-target]'),
@@ -56,7 +72,7 @@ const contatoForm = document.getElementById('contato-form'),
           ) {
 
         // Mensagem de erro
-            mensagemErro.textContent = 'Preencha todos os campos obrigatórios'
+            mensagemErro.textContent = 'Preencha todos os campos obrigatórios 😉'
         } 
 
         else {
@@ -69,7 +85,7 @@ const contatoForm = document.getElementById('contato-form'),
                 ).then(() => {
                     // Show menssage and add color, window + dot to open emoji
                     mensagemErro.classList.add('color-first');
-                    mensagemErro.textContent = 'Mensagem enviada com sucesso!';
+                    mensagemErro.textContent = 'Mensagem enviada com sucesso! ✔️';
 
                     // Remover mensagem depois de 7 segundos
                     setTimeout(() => {
