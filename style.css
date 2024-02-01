@@ -100,8 +100,9 @@ a {
     text-decoration: none;
 }
 
-p {
-    line-height: 1.67em;
+p :not(.portifolio__description, .portifolio__subtitle) {
+    line-height: 1.67rem;
+    text-align: justify;
 }
 
 img {
@@ -809,10 +810,45 @@ input {
     .contato__description {
         margin-bottom: 2rem;
     }
+
+    .footer__social-link {
+        font-size: var(--smaller-font-size);
+        width: 36px;
+        height: 36px;
+    }
+
+    .scrollup {
+        width: 42px;
+        height: 42px;
+    }
+
+    .scrollup__icon {
+        font-size: 2rem;
+    }
 }
 
 /* Telas medianas*/
 @media screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .home__img {
+        width: 280px;
+        height: 280px;
+    }
+
+    .tabs__btns {
+        flex-wrap: wrap;
+        row-gap: 0.75rem;
+        column-gap: 1.5rem;
+    }
+
+    .serviços__container,
+    .portifolio__container,
+    .footer__container {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media screen and (max-width: 576px) {
