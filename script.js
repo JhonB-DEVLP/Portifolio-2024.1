@@ -1,7 +1,7 @@
 /* Show menu */
 const navMenu = document.getElementById('nav-menu'),
-    navToggle = document.getElementById('nav-toggle'),
-    navClose = document.getElementById('nav-close');
+navToggle = document.getElementById('nav-toggle'),
+navClose = document.getElementById('nav-close');
 
 /* Menu Show*/
 /* Validar se a constante existe */
