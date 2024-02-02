@@ -70,6 +70,7 @@
 
 html {
     scroll-behavior: smooth;
+    transition: all 1.2s var(--transition);
 }
 
 input,
@@ -100,7 +101,7 @@ a {
     text-decoration: none;
 }
 
-p :not(.portifolio__description, .portifolio__subtitle) {
+p:not(.portifolio__description, .portifolio__subtitle, .section__description) {
     line-height: 1.67rem;
     text-align: justify;
 }
@@ -873,8 +874,18 @@ input {
     }
 
     .home__img {
-        width: 260px;
-        height: 260px;
+        width: 270px;
+        height: 265px;
+    }
+
+    .sobre__img {
+        width: 305px;
+        height: 320px;
+    }
+
+    .contato__img {
+        width: 255px;
+        height: 300px;
     }
 
     .serviços__item {
@@ -887,6 +898,16 @@ input {
     .home__img {
         width: 240px;
         height: 240px;
+    }
+    
+    .sobre__img {
+        width: 180px;
+        height: px;
+    }
+
+    .contato__img {
+        width: 180px;
+        height: 190px;
     }
 
     .tabs__description span:last-child {
