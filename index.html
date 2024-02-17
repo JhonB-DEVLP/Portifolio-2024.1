@@ -1,431 +1,478 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Unicons -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
     <link rel="stylesheet" href="style.css">
 
-    <title>Portifólio Website</title> 
+    <title>Portifólio Website</title>
 </head>
+
 <body>
 
- <!-- Header -->
-<header class="header" id="header">
-    <nav class="nav container">
-        <a href="index.html" class="nav__logo">JS D<span>E</span>V</a>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">JS D<span>E</span>V</a>
 
-        <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list">
-                <li><a href="#home" class="nav__link active-link">Home</a></li>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link active-link">Home</a></li>
 
-                <li><a href="#sobre" class="nav__link">Sobre</a></li>
+                    <li><a href="#sobre" class="nav__link">Sobre</a></li>
 
-                <li><a href="#serviços" class="nav__link">Serviços</a></li>
+                    <li><a href="#serviços" class="nav__link">Serviços</a></li>
 
-                <li><a href="#portifolio" class="nav__link">Portifólio</a></li>
+                    <li><a href="#portifolio" class="nav__link">Portifólio</a></li>
 
-                <li><a href="#contato" class="nav__link">Contato</a></li>
-            </ul>
+                    <li><a href="#contato" class="nav__link">Contato</a></li>
+                </ul>
 
-            <div class="nav__close" id="nav-close">
-                <i class="ui uil-times"></i>
-            </div>
-        </div>
-
-        <div class="nav__socials">
-            <a href="https://github.com/JhonB-DEVLP" target="_blank"
-            class="nav__social-link">
-                <i class="uil uil-github"></i>
-        </a>
-
-        <a href="https://www.linkedin.com/in/jhonesbonifaciodasilva/" target="_blank"
-            class="nav__social-link">
-                <i class="uil uil-linkedin"></i>
-        </a>
-
-        <a href="https://www.instagram.com/iae.jhonzn/" target="_blank"
-            class="nav__social-link">
-                <i class="uil uil-instagram-alt"></i>
-        </a>
-        </div>
-
-        <div class="nav__btns">
-            <a href="#contato" class="nav__link-btn btn"> Fale comigo 👇🏼</a>
-
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="uil uil-bars"></i>
-            </div>
-        </div>
-    </nav>
-</header>
- 
- <!-- Main -->
-<main class="main">
-    <!-- Home -->
-<section class= "home" id= "home">
-    <div class = "home__container container grid">
-        <div class="home__content">
-            <span class="home__subtitle"> Seja bem-vindo ao meu portifólio</span>
-            <h1 class="home__title">
-                 Olá me chamo Jhones, <span> sou desenvolvedor Full Stack. </span> Sou brasileiro e recifense com muito orgulho.
-                </h1>
-        </div>
-
-        <img src="img/home.jpg" alt="" class="home__img">
-    </div>
-</section>
-
-    <!-- Sobre -->
-<section class="sobre section" id="sobre">
-    <div class="sobre__container container grid">
-        <img src="img/sobre.jpg" alt="" class="sobre__img">
-        
-        <div class="sobre__content">
-            <h2 class="section__titulo"> Sobre mim </h2>
-
-            <p class="sobre__descricao"> Sou um estudante entusiasmado pelo universo da programação.
-                 Curso Sistemas para Internet na UNICAP e Engenharia de Software na Unifatecie. 
-                 Sou um desenvolvedor em formação, mas com habilidades sólidas em HTML5, CSS3, JavaScript, 
-                 Java, Python e versionamento por Git e GitHub. 
-                 Acredito que o aprendizado contínuo é fundamental em um campo dinâmico como a tecnologia, 
-                 adoro ser comunicativo com todos ao meu redor e principalmente quando o assunto é conversar 
-                 sobre as infinitas possibilidades que existem nesse mundo dos códigos. Aqui, estou registrando 
-                 uma parte do meu processo de aprendizagem no dia a dia.    
-            </p>
-
-            <div class="tabs__btns">
-                <span class="tabs__btn tab__active" data-target="#skills"
-                >Minhas Skills </span>
-
-                <span class=" tabs__btn " data-target="#experiencias"> Experiências </span>
-                <span class=" tabs__btn " data-target="#tecnologias"> Tecnologias </span>
-                <span class=" tabs__btn " data-target="#certificados"> Certificados </span>
+                <div class="nav__close" id="nav-close">
+                    <i class="ui uil-times"></i>
+                </div>
             </div>
 
-            <div class="tabs__content">
-                <div class="tabs__item tab__active" data-content id="skills">
-                    <div class="tabs__data grid">
-                        <p class="tabs__description">
-                            <span> Proativo </span> - Lorem Ipson
-                            <span>2019 - 2024</span>
-                        </p>
+            <div class="nav__socials">
+                <a href="https://github.com/JhonB-DEVLP" target="_blank" class="nav__social-link">
+                    <i class="uil uil-github"></i>
+                </a>
 
-                        <p class="tabs__description">
-                            <span> Não bebo nem fumo </span> - Lorem Ipson
-                            <span> Atualmente </span>
-                        </p>
+                <a href="https://www.linkedin.com/in/jhonesbonifaciodasilva/" target="_blank" class="nav__social-link">
+                    <i class="uil uil-linkedin"></i>
+                </a>
 
-                        <p class="tabs__description">
-                            <span> Gosta de resenha </span> - Lorem Ipson
-                            <span> Atualmente </span>
-                        </p>
+                <a href="https://www.instagram.com/iae.jhonzn/" target="_blank" class="nav__social-link">
+                    <i class="uil uil-instagram-alt"></i>
+                </a>
+            </div>
+
+            <div class="nav__btns">
+                <a href="#contato" class="nav__link-btn btn"> Fale comigo 👇🏼</a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Home -->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__subtitle"> Seja bem-vindo ao meu portifólio</span>
+                    <h1 class="home__title">
+                        Olá me chamo Jhones, <span> sou desenvolvedor Full Stack. </span> Sou brasileiro e recifense com
+                        muito orgulho.
+                    </h1>
+                </div>
+
+                <img src="img/home.jpg" alt="" class="home__img">
+            </div>
+        </section>
+
+        <!-- Sobre -->
+        <section class="sobre section" id="sobre">
+            <div class="sobre__container container grid">
+                <img src="img/sobre.jpg" alt="" class="sobre__img">
+
+                <div class="sobre__content">
+                    <h2 class="section__titulo"> Sobre mim </h2>
+
+                    <p class="sobre__descricao"> Olá, eu sou um estudante entusiasmado pelo universo da programação.
+                        Eu cursando sistemas para internet na UNICAP, oportunidade oferecida pelo programa embarque digital.
+                        Sou um desenvolvedor em formação e com habilidades sólidas em HTML5, CSS3, JavaScript,
+                        Java, Python, banco de dados e versionamento por Git e GitHub.
+                        Acredito que o aprendizado contínuo é fundamental em um campo dinâmico como a tecnologia,
+                        adoro ser comunicativo com todos ao meu redor e principalmente quando o assunto é conversar
+                        sobre as infinitas possibilidades que existem nesse mundo dos códigos. Aqui, estou registrando vários projetos que fazem
+                        parte do meu processo de aprendizagem no dia a dia.
+                    </p>
+
+                    <div class="tabs__btns">
+                        <span class="tabs__btn tab__active" data-target="#skills">Minhas Skills </span>
+
+                        <span class=" tabs__btn " data-target="#experiencias"> Experiências </span>
+                        <span class=" tabs__btn " data-target="#tecnologias"> Tecnologias </span>
+                        <span class=" tabs__btn " data-target="#certificados"> Certificados </span>
+                    </div>
+
+                    <div class="tabs__content">
+                        <div class="tabs__item tab__active" data-content id="skills">
+                            <div class="tabs__data grid">
+                                <p class="tabs__description">
+                                    <span> Proativo </span> - Soft skill
+                                    <span>  </span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span> Git </span> - Hard skill
+                                    <span> </span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span> Aprendizado contínuo </span> - Soft skill
+                                    <span>  </span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span> Back-end </span> - Hard skill
+                                    <span> Java, C# e JavaScript </span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span> Adaptabilidade </span> - Soft skill
+                                    <span>  </span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span> Front-end </span> - Hard skill
+                                    <span> HTML, CSS e JavaScript</span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span> Comunicação em equipe </span> - Soft skill
+                                    <span>  </span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span> Banco de dados </span> - Hard skill
+                                    <span> SLQ e NoSQL DATABASE </span>
+                                </p>
+                            </div>
                         </div>
-                </div>
 
-                <div class="tabs__item" data-content  id="experiencias">
-                    <div class="tabs__data grid">
-                        <p class="tabs__description">
-                            <span> Criei o app Ifood </span> - usando somente Rust
-                            <span> 2019 </span>
-                        </p>
-    
-                        <p class="tabs__description">
-                            <span> Trabalhei 15 anos na globo </span> - Recovery Disaster
-                            <span> 2000 - 2015 </span>
-                        </p>
-    
-                        <p class="tabs__description">
-                            <span> Dev sênior do Instagram </span> - Fiz o código completo na pausa do almoço
-                            <span> Atualmente </span>
-                        </p>
-                </div>
-                </div>
+                        <div class="tabs__item" data-content id="experiencias">
+                            <div class="tabs__data grid">
+                                <p class="tabs__description">
+                                    <span> Desenvolvi um projeto chamado Dash Metrics </span> - Utilizando variáveis do INEP 
+                                    <span> Cadeira de projeto integrador, os IDE's utilizados foram DATAGRIP e VScode, serviço em nuvem: Elephant SQL e linguagens para a parte visual foram HTML, CSS E JS.  </span>
+                                </p>
 
-                <div class="tabs__item" data-content  id="tecnologias">
-                    <div class="tabs__data grid">
-                        <p class="tabs__description">
-                            <span> Angular </span> - Lorem Ipson
-                            <span> 2023 </span>
-                        </p>
-        
-                        <p class="tabs__description">
-                            <span> C# </span> - Lorem Ipson
-                            <span> 2024 </span>
-                        </p>
-        
-                        <p class="tabs__description">
-                            <span> .NET </span> - Lorem Ipson
-                            <span> 2024 </span>
-                        </p>
+                                <p class="tabs__description">
+                                    <span> Participei do evento Challenge 2.0 da Globo </span> - Tema "Recovery Disaster"
+                                    <span> Foi bastante importante na minha trajetória pois consegui desenvolver várias ideias utilizando machine learning e IA, porém o projeto não conseguiu ser viável.  </span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span> Projeto campeão do Kick Off 2023.1 da residência do porto digital </span> - Tema "Saúde mental: inovação a favor do bem-estar".
+                                    <span> Desenvolvi a parte visual do app no Figma. O aplicativo com nome "Kako" foi feito para auxiliar profissionais de psicoteria infantil.</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tabs__item" data-content id="tecnologias">
+                            <div class="tabs__data grid">
+                                <p class="tabs__description">
+                                    <span> HTML e CSS</span> - Avançado
+                                    <span>  </span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span> C# e .NET</span> - Intermediário
+                                    <span>  </span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span> JavaScript </span> - Intermediário
+                                    <span> </span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span> GIT e versionamento </span> - Avançado
+                                    <span>  </span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span> MySQL </span> - intermediário
+                                    <span>  </span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span> Java </span> - intermediário
+                                    <span>  </span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span> Python </span> - Básico
+                                    <span>  </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tabs__item" data-content id="certificados">
+                            <div class="tabs__data grid">
+                                <p class="tabs__description">
+                                    <span> Iniciante ao avançado em C#  </span> - DIO e Avanade
+                                    <span> 2023 </span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span> Iniciante ao avançado em Java </span> - Fundação Bradesco
+                                    <span> 2023 </span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span> Desenvolvimento WEB Java </span> - Fundação Bradesco
+                                    <span> 2023 </span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span> Introdução a ciência da computação </span> - Fundação Bradesco
+                                    <span> 2022 </span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span> Computação em nuvem </span> - Ka solution
+                                    <span> 2023 </span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span> Banco de dados </span> - Fundação Bradesco
+                                    <span> 2023 </span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span> Python com estruturas de dados </span> - Fundação Bradesco
+                                    <span> 2023 </span>
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span> Introdução a programação orientada a objetos (POO)</span> - Fundação Bradesco
+                                    <span> 2023 </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                </div>
-                    
-                <div class="tabs__item" data-content  id="certificados">
-                    <div class="tabs__data grid">
-                        <p class="tabs__description">
-                            <span> AWS - ALURA </span> - Lorem Ipson
-                            <span> 2023 </span>
-                        </p>
-    
-                        <p class="tabs__description">
-                            <span> C# - Avanade em parceria com a Dio </span> - Básico ao avançado
-                            <span> 2024 </span>
-                        </p>
-    
-                        <p class="tabs__description">
-                            <span> Desenvolvimento WEB Java </span> - Fundação Bradesco
-                            <span> 2023 </span>
-                        </p>
-                </div>
-                </div>
-              </div>
             </div>
+            </div>
+        </section>
+        <!-- Serviços -->
+        <section class="serviços section" id="serviços">
+            <h2 class="section__titulo"> Meus serviços </h2>
+            <p class="section__description"> Free lancer </p>
+
+            <div class="serviços__container container grid">
+                <div class="serviços__item">
+                    <i class="uil uil-browser serviços__icon"></i>
+
+                    <h3 class="serviços__title"> Desenvolvedor web </h3>
+                    <p class="serviços__description"> Criação de sites estáticos ou dinâmicos para empresas, escolas ou comércios. Desenvolvimento de layouts responsivos para garantir uma experiência consistente em diferentes dispositivos e tamanhos de tela.
+                    </p>
+                </div>
+
+                <div class="serviços__item">
+                    <i class="uil uil-palette serviços__icon"></i>
+
+                    <h3 class="serviços__title"> Designer gráfico </h3>
+                    <p class="serviços__description"> Criação de logotipos e elementos visuais que representem a identidade de alguma empresa, além de criação de layouts atraentes e informativos.
+                    </p>
+                </div>
+
+                <div class="serviços__item ">
+                    <i class="uil uil-desktop-alt serviços__icon"></i>
+
+                    <h3 class="serviços__title"> Desenvolvedor full stack </h3>
+                    <p class="serviços__description"> Desenvolvimento de sites mais completos com tecnologias front-end e back-end, integração de banco de dados, desenvolvimento de serviços web para processamento de pagamento, envio de e-mails e autenticação de usuários.
+                    </p>
+                </div>
+
+                <div class="serviços__item">
+                    <i class="uil uil-layer-group serviços__icon"></i>
+
+                    <h3 class="serviços__title"> Integração de APIs </h3>
+                    <p class="serviços__description"> Integração de APIs de terceiros, como serviços de pagamento (transferências), sistemas de CRM, e-commerce.
+                        
+                    </p>
+                </div>
+
+                <div class="serviços__item">
+                    <i class="uil uil-blogger-alt serviços__icon"></i>
+
+                    <h3 class="serviços__title"> Desenvolvimento de landing pages </h3>
+                    <p class="serviços__description"> Criação de designs exclusivos e personalizados para as suas landing pages, foco em identidade visual da marca. Porjetos otimizados para atrair a atenção do público-alvo. Configuração de ferramentas de análise, como Google Analytics, para monitorar o tráfego, o comportamento dos usuários e as métricas de conversão da landing page.
+                    </p>
+                </div>
+
+                <div class="serviços__item">
+                    <i class="uil uil-shield serviços__icon"></i>
+
+                    <h3 class="serviços__title"> Análise de segurança </h3>
+                    <p class="serviços__description"> Avalio segurança da rede, análise de configurações de firewall, switches, roteadores e outros dispositivos de rede para garantir que estejam configurados de forma segura e de acordo com as melhores práticas. Identificação e correção de falhas de configuração que possam deixar a rede vulnerável a ataques externos ou internos.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos -->
+        <section class="portifolio section" id="portifolio">
+            <h2 class="section__titulo"> Meus projetos recentes </h2>
+            <p class="section__description"> Aqui estão todos os projetos do meu repositório do Git Hub</p>
+
+            <div class="portifolio__container container grid">
+                <div class="portifolio__item">
+                    <div class="mascara-off"></div>
+                    <img src="img/1.PNG" alt="" class="portifolio__img" />
+
+                    <div class="portifolio__data">
+                        <p class="portifolio__subtitle"> Programador </p>
+                        <h3 class="portifolio__title"> Web Design </h3>
+                        <p class="portifolio__description">
+                            Lorem ipson dolor sit amet
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portifolio__item">
+                    <div class="mascara-off"></div>
+                    <img src="img/portfolio-2.jpg" alt="" class="portifolio__img" />
+
+                    <div class="portifolio__data">
+                        <p class="portifolio__subtitle"> Programador </p>
+                        <h3 class="portifolio__title"> Web Design </h3>
+                        <p class="portifolio__description"> Lorem ipson dolor sit amet
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portifolio__item">
+                    <div class="mascara-off"></div>
+                    <img src="img/portfolio-2.jpg" alt="" class="portifolio__img" />
+
+                    <div class="portifolio__data">
+                        <p class="portifolio__subtitle"> Programador </p>
+                        <h3 class="portifolio__title"> Web Design </h3>
+                        <p class="portifolio__description"> Lorem ipson dolor sit amet
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portifolio__item">
+                    <div class="mascara-off"></div>
+                    <img src="img/portfolio-4.jpg" alt="" class="portifolio__img" />
+
+                    <div class="portifolio__data">
+                        <p class="portifolio__subtitle"> Programador </p>
+                        <h3 class="portifolio__title"> Web Design </h3>
+                        <p class="portifolio__description"> Lorem ipson dolor sit amet
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portifolio__item">
+                    <div class="mascara-off"></div>
+                    <img src="img/portfolio-1.jpg" alt="" class="portifolio__img" />
+
+                    <div class="portifolio__data">
+                        <p class="portifolio__subtitle"> Programador </p>
+                        <h3 class="portifolio__title"> Web Design </h3>
+                        <p class="portifolio__description"> Lorem ipson dolor sit amet
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portifolio__item">
+                    <div class="mascara-off"></div>
+                    <img src="img/portfolio-6.jpg" alt="" class="portifolio__img" />
+
+                    <div class="portifolio__data">
+                        <p class="portifolio__subtitle"> Programador </p>
+                        <h3 class="portifolio__title"> Web Design </h3>
+                        <p class="portifolio__description"> Lorem ipson dolor sit amet
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section class="contato section" id="contato">
+            <div class="contato__container container grid">
+                <div class="contato__content">
+                    <h2 class="section__titulo">Entre em contato</h2>
+
+                    <p class="contato__description">Lorem ipsum dolor. Entre em contato comigo pelo telefone:
+                        <a href="tel:+558199112895"> 81 99911-2895</a> ou email:
+                        <a href="mailto:jhonesbonifacio_18@outlook.com">jhonesbonifacio_18@outlook.com</a>
+                    </p>
+
+                    <form class="contato__form" id="contato-form">
+                        <div class="contato__form-input">
+                            <input type="text" name="name" placeholder="Seu nome *" class="contato__input"
+                                id="contato-name" />
+                        </div>
+
+                        <div class="contato__form-input">
+                            <input type="email" name="email" placeholder="Seu email *" class="contato__input"
+                                id="contato-email" />
+                        </div>
+
+                        <div class="contato__form-input">
+                            <input type="text" name="subject" placeholder="Assunto" class="contato__input"
+                                id="contato-subject" />
+                        </div>
+
+                        <div class="contato__form-input">
+                            <textarea name="message" id="contato-message" class="contato__input textarea"
+                                placeholder="Sua mensagem"></textarea>
+
+                        </div>
+
+                        <input type="submit" value="Enviar" class="btn" />
+
+                        <p class="mensagem__erro" id="mensagem-erro"></p>
+                    </form>
+                </div>
+
+                <img src="img/contato.1.jpg" alt="" class="contato__img">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <a href="index.html" class="footer__logo">JS D<span>E</span>V</a>
+
+            <div class="footer__socials">
+                <a href="https://github.com/JhonB-DEVLP" target="_blank" class="footer__social-link">
+                    <i class="uil uil-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/jhonesbonifaciodasilva/" target="_blank"
+                    class="footer__social-link">
+                    <i class="uil uil-linkedin"></i>
+                </a>
+
+                <a href="https://www.instagram.com/iae.jhonzn/" target="_blank" class="footer__social-link">
+                    <i class="uil uil-instagram-alt"></i>
+                </a>
+            </div>
+
+            <p class="footer__copyrigth"> &copy; 2024. Todos os direitos reservados.</p>
         </div>
-    </div>
-</section>
-    <!-- Serviços -->
-    <section class="serviços section" id="serviços">
-        <h2 class="section__titulo"> Meus serviços </h2>
-        <p class="section__description"> Lorem Ipson </p>
+    </footer>
 
-    <div class="serviços__container container grid">
-        <div class="serviços__item">
-        <i class="uil uil-rss-interface serviços__icon"></i>
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
 
-        <h3 class="serviços__title"> Lorem Ipson </h3>
-        <p class="serviços__description"> Lorem Ipson Lorem Ipson Lorem Ipson            
-        </p>
-    </div>
+    <!-- biblioteca Email JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- Rodapé -->
 
-    <div class="serviços__item">
-        <i class="uil uil-bitcoin serviços__icon"></i>
-
-        <h3 class="serviços__title"> Lorem Ipson </h3>
-        <p class="serviços__description"> Lorem Ipson Lorem Ipson Lorem Ipson            
-        </p>
-    </div>
-    
-    <div class="serviços__item ">
-        <i class="uil uil-users-alt serviços__icon" ></i>
-
-        <h3 class="serviços__title"> Lorem Ipson </h3>
-        <p class="serviços__description"> Lorem Ipson Lorem Ipson Lorem Ipson            
-        </p>
-    </div>
-
-    <div class="serviços__item">
-        <i class="uil uil-layer-group serviços__icon" ></i>
-
-        <h3 class="serviços__title"> Lorem Ipson </h3>
-        <p class="serviços__description"> Lorem Ipson Lorem Ipson Lorem Ipson            
-        </p>
-    </div>
-
-    <div class="serviços__item">
-        <i class="uil uil-users-alt serviços__icon" ></i>
-
-        <h3 class="serviços__title"> Lorem Ipson </h3>
-        <p class="serviços__description"> Lorem Ipson Lorem Ipson Lorem Ipson            
-        </p>
-    </div>
-
-    <div class="serviços__item">
-        <i class="uil uil-desktop serviços__icon" ></i>
-
-        <h3 class="serviços__title"> Lorem Ipson </h3>
-        <p class="serviços__description"> Lorem Ipson Lorem Ipson Lorem Ipson            
-        </p>
-    </div>
-  </div>
-</section>
-
-    <!-- Projetos -->
-    <section class="portifolio section" id="portifolio">
-        <h2 class="section__titulo"> Meus projetos recentes </h2>
-        <p class ="section__description"> Aqui estão todos os projetos do meu repositório do Git Hub</p>
-
-        <div class="portifolio__container container grid">
-            <div class="portifolio__item">
-                <div class="mascara-off"></div>
-                <img 
-                src="img/portfolio-2.jpg" 
-                alt="" 
-                class="portifolio__img"/>
-
-            <div class="portifolio__data">
-                <p class="portifolio__subtitle"> Programador </p> 
-                <h3 class="portifolio__title"> Web Design </h3>
-                <p class="portifolio__description"> 
-                    Lorem ipson dolor sit amet
-                </p>
-            </div>    
-            </div>
-
-            <div class="portifolio__item">
-                <div class="mascara-off"></div>
-                <img src="img/portfolio-2.jpg" alt="" class="portifolio__img"/>
-
-            <div class="portifolio__data">
-                <p class="portifolio__subtitle"> Programador </p> 
-                <h3 class="portifolio__title"> Web Design </h3>
-                <p class="portifolio__description"> Lorem ipson dolor sit amet
-                </p>
-            </div>    
-            </div>
-
-            <div class="portifolio__item">
-                <div class="mascara-off"></div>
-                <img src="img/portfolio-2.jpg" alt="" class="portifolio__img"/>
-
-            <div class="portifolio__data">
-                <p class="portifolio__subtitle"> Programador </p> 
-                <h3 class="portifolio__title"> Web Design </h3>
-                <p class="portifolio__description"> Lorem ipson dolor sit amet
-                </p>
-            </div>    
-            </div>
-
-            <div class="portifolio__item">
-                <div class="mascara-off"></div>
-                <img src="img/portfolio-4.jpg" alt="" class="portifolio__img"/>
-
-            <div class="portifolio__data">
-                <p class="portifolio__subtitle"> Programador </p> 
-                <h3 class="portifolio__title"> Web Design </h3>
-                <p class="portifolio__description"> Lorem ipson dolor sit amet
-                </p>
-            </div>    
-            </div>
-
-            <div class="portifolio__item">
-                <div class="mascara-off"></div>
-                <img src="img/portfolio-1.jpg" alt="" class="portifolio__img"/>
-
-            <div class="portifolio__data">
-                <p class="portifolio__subtitle"> Programador </p> 
-                <h3 class="portifolio__title"> Web Design </h3>
-                <p class="portifolio__description"> Lorem ipson dolor sit amet
-                </p>
-            </div>    
-            </div>
-
-            <div class="portifolio__item">
-                <div class="mascara-off"></div>
-                <img src="img/portfolio-6.jpg" alt="" class="portifolio__img"/>
-
-            <div class="portifolio__data">
-                <p class="portifolio__subtitle"> Programador </p> 
-                <h3 class="portifolio__title"> Web Design </h3>
-                <p class="portifolio__description"> Lorem ipson dolor sit amet
-                </p>
-            </div>    
-            </div>
-        </div>
-    </section>    
-
-    <!-- Contato -->
-    <section class="contato section" id="contato">
-        <div class="contato__container container grid">
-            <div class="contato__content">
-                <h2 class="section__titulo">Entre em contato</h2>
-
-                <p class="contato__description">Lorem ipsum dolor. Entre em contato comigo pelo telefone:        
-                    <a href="tel:+558199112895"> 81 99911-2895</a> ou email:
-                    <a href="mailto:jhonesbonifacio_18@outlook.com">jhonesbonifacio_18@outlook.com</a>
-                </p>
-
-                <form class="contato__form" id="contato-form">
-                <div class="contato__form-input">
-                    <input 
-                     type="text"
-                     name="name"
-                     placeholder="Seu nome *"
-                     class="contato__input"
-                     id="contato-name"/>
-                </div>
-
-                <div class="contato__form-input">
-                    <input 
-                     type="email"
-                     name="email"
-                     placeholder="Seu email *"
-                     class="contato__input"
-                     id="contato-email"/>
-                </div>
-
-                <div class="contato__form-input">
-                    <input 
-                     type="text"
-                     name="subject"
-                     placeholder="Assunto"
-                     class="contato__input"
-                     id="contato-subject"/>
-                </div>
-
-                <div class="contato__form-input">
-                    <textarea 
-                    name="message" 
-                    id="contato-message"
-                    class="contato__input textarea"
-                    placeholder="Sua mensagem"
-                    ></textarea>
-                    
-                </div>
-
-                <input type="submit" value="Enviar" class="btn" />
-
-                <p class="mensagem__erro" id="mensagem-erro"></p>
-            </form>
-            </div>
-
-            <img src="img/contato.1.jpg" alt="" class="contato__img">
-        </div>
-    </section>
-</main>
-
-<!-- Footer -->
-<footer class= "footer">
-    <div class="footer__container container grid">
-        <a href="index.html" class="footer__logo">JS D<span>E</span>V</a>
-
-        <div class="footer__socials">
-            <a href="https://github.com/JhonB-DEVLP" target="_blank"
-            class="footer__social-link">
-                <i class="uil uil-github"></i>
-        </a>
-
-        <a href="https://www.linkedin.com/in/jhonesbonifaciodasilva/" target="_blank"
-            class="footer__social-link">
-                <i class="uil uil-linkedin"></i>
-        </a>
-
-        <a href="https://www.instagram.com/iae.jhonzn/" target="_blank"
-            class="footer__social-link">
-                <i class="uil uil-instagram-alt"></i>
-        </a>
-        </div>
-
-        <p class="footer__copyrigth"> &copy; 2024. Todos os direitos reservados.</p>
-    </div>
-</footer>
-
-<!-- Scroll Up -->
-<a href="#" class="scrollup" id="scroll-up">
-    <i class="uil uil-angle-up scrollup__icon"></i>
-</a>
-
-<!-- biblioteca Email JS -->
-<script 
-    type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-    ></script>
- <!-- Rodapé -->
-
-<script src="script.js"></script>    
+    <script src="script.js"></script>
 </body>
+
 </html>

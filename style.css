@@ -9,7 +9,8 @@
 
     /* Color mode HSL (Hue, saturation, Ligthness) */
     --first-color: hsl(350, 100%, 60%);
-    --second-color: hsl(0, 0%, 100%);;
+    --second-color: hsl(0, 0%, 100%);
+    ;
     --title-color: hsl(0, 0%, 100%);
     --text-color: hsl(0, 0%, 77%);
     --body-color: hsl(0, 0%, 6%);
@@ -22,8 +23,10 @@
     --body-font: 'Poppins', sans-serif;
     --second-font: 'Montserrat', sans-serif;
 
-    --big-font-size: clamp(2rem, 0.9706rem + 4.7059vw, 4.5rem);;
-    --h1-font-size: clamp(1.75rem, 0.9265rem + 3.7647vw, 3.75rem);;
+    --big-font-size: clamp(2rem, 0.9706rem + 4.7059vw, 4.5rem);
+    ;
+    --h1-font-size: clamp(1.75rem, 0.9265rem + 3.7647vw, 3.75rem);
+    ;
     --h2-font-size: 1.75rem;
     --h3-font-size: 1.5rem;
     --normal-font-size: 1.125rem;
@@ -48,16 +51,17 @@
     --z-tooltip: 10;
     --z-fixed: 100;
 }
-    /* Responsividade 1. */
-    @media screen and (max-width: 992px) {
-        :root {
-            --header-height: 5rem;
 
-            --h2-font-size: 1.5rem;
-            --h3-font-size: 1.25rem;
-            --normal-font-size: 1rem;
-            --small-font-size: 0.9375rem;
-            --smaller-font-size: 0.813rem;
+/* Responsividade 1. */
+@media screen and (max-width: 992px) {
+    :root {
+        --header-height: 5rem;
+
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: 0.9375rem;
+        --smaller-font-size: 0.813rem;
     }
 }
 
@@ -194,7 +198,8 @@ input {
 }
 
 .nav__link-btn {
-    margin-top: 2px; /* Adapte o valor conforme necessário para obter o espaçamento desejado */
+    margin-top: 2px;
+    /* Adapte o valor conforme necessário para obter o espaçamento desejado */
 }
 
 .nav__logo {
@@ -203,7 +208,7 @@ input {
     font-weight: var(--weight-700);
 }
 
-.nav__logo span{
+.nav__logo span {
     color: var(--first-color);
 }
 
@@ -271,6 +276,7 @@ input {
     0% {
         transform: translateY(-100%);
     }
+
     100% {
         transform: translate(0);
     }
@@ -527,7 +533,7 @@ input {
 }//
 
 /* Contato */
-.contato__container{
+.contato__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     column-gap: 4rem;
@@ -538,7 +544,7 @@ input {
     font-weight: var(--weight-400);
 }
 
-.contato__description{
+.contato__description {
     margin-bottom: 3rem;
 }
 
@@ -594,7 +600,7 @@ input {
     font-weight: var(--weight-700);
 }
 
-.footer__logo span{
+.footer__logo span {
     color: var(--first-color);
 }
 
@@ -727,7 +733,7 @@ input {
     .nav__toggle,
     .nav__close {
         display: block;
-    } 
+    }
 
     .nav__link-btn {
         display: none;
@@ -772,9 +778,9 @@ input {
     .nav__toggle {
         cursor: pointer;
     }
-    
+
     .home {
-        padding-top: 9rem;       
+        padding-top: 9rem;
     }
 
     .home__img {
@@ -899,7 +905,7 @@ input {
         width: 240px;
         height: 240px;
     }
-    
+
     .sobre__img {
         width: 180px;
         height: px;
